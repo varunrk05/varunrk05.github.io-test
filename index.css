@@ -46,9 +46,9 @@ html, body {
     padding: 1.5rem;
     box-shadow: 5px 5px rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
-    display: block;
+    display: none;
     color: rgb(255, 255, 255);
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .text-main div#proceed:active {
@@ -63,7 +63,6 @@ html, body {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        text-align: center;
     }
     
     .text-main p {
@@ -71,7 +70,6 @@ html, body {
         height: 50px;
         line-height: 50px;
         font-size: 20px;
-        display: inline-block;
     }
     
     .text-main a {
@@ -81,14 +79,14 @@ html, body {
     .text-main div#proceed {
         height: 60px;
         margin: 20px;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
 @media all and (max-width: 600px) {
     .text-main {
         width: 80%;
-        height: 100px;
+        height: 140px;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
@@ -96,7 +94,7 @@ html, body {
     
     .text-main p {
         width: 100%;
-        height: 20px;
+        height: 30px;
         font-size: 12.5px;
     }
     
@@ -105,8 +103,18 @@ html, body {
     }
     
     .text-main div#proceed {
-        height: 40px;
-        margin: 10px;
+        height: 50px;
+        margin: 15px;
         font-size: 9px;
+    }
+}
+
+@media all and (max-width: 340px) {
+    .text-main p {
+        font-size: 9.5px;
+    }
+
+    .text-main div#proceed {
+        font-size: 7px;
     }
 }
