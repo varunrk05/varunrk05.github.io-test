@@ -3,14 +3,14 @@ function textWriter(txt, eleId, i) {
     if(i < txt.length) {
         document.getElementById(eleId).innerHTML += txt.charAt(i);
         i++;
-        setTimeout(textWriter, 100, txt, eleId, i);
+        setTimeout(textWriter, 50, txt, eleId, i);
     }
 }
 
 window.onload = async function() {
-    textWriter("Hello, and welcome!", "text-welcome-1", 0);
+    textWriter("Hello, my name is Varun.", "text-welcome-1", 0);
     setTimeout(() => {
-        textWriter("My name is Varun.", "text-welcome-2", 0);
+        textWriter("And, welcome to my website!.", "text-welcome-2", 0);
     }, 2500);
     setTimeout(() => {
         // textWriter("Click here to proceed forward", "text-welcome-3", 0);

@@ -33,7 +33,7 @@ html, body {
     margin: 0;
     height: 60px;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .text-main a {
@@ -56,7 +56,7 @@ html, body {
     transform: translate(3px, 3px);
 }
 
-@media all and (max-width: 1010px) {
+@media all and (max-width: 1120px) {
     .text-main {
         width: 80%;
         height: 200px;
@@ -69,7 +69,7 @@ html, body {
         width: 100%;
         height: 50px;
         line-height: 50px;
-        font-size: 20px;
+        font-size: 17.5px;
     }
     
     .text-main a {
@@ -79,11 +79,11 @@ html, body {
     .text-main div#proceed {
         height: 60px;
         margin: 20px;
-        font-size: 15px;
+        font-size: 13.5px;
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 615px) {
     .text-main {
         width: 80%;
         height: 140px;
@@ -109,12 +109,23 @@ html, body {
     }
 }
 
-@media all and (max-width: 340px) {
+@media all and (max-width: 440px) {
     .text-main p {
-        font-size: 9.5px;
+        font-size: 10px;
     }
 
     .text-main div#proceed {
-        font-size: 7px;
+        font-size: 8.5px;
+    }
+}
+
+
+@media all and (max-width: 349px) {
+    .text-main p {
+        font-size: 8.5px;
+    }
+
+    .text-main div#proceed {
+        font-size: 8px;
     }
 }
